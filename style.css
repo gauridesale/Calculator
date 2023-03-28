@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Cinzel', serif;
+}
+
+.cal-heading {
+    font-size: 50px;
+    position: relative;
+    margin: 7% 598px 2%;
+}
+
+table {
+    position: relative;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 38px;
+    background-color: #6a5a48;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="button"]:hover {
+    background-color: #615342;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+input[type="text"]:hover {
+    border: solid grey;
+}
+
+input[value="="] {
+    background-color: #6a5a48;
+}
+
+input[value="="]:hover {
+    background-color: #534331;
+}
